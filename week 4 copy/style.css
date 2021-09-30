@@ -1,0 +1,55 @@
+body{
+  background-color: #ECAF44;
+}
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+color: #1A2C42;
+  text-align: center;
+text-decoration: underline;
+font-size: 50px
+}
+
+
+p {
+  color: #1A2C42
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+color: #1A2C42;
+ display: inline-block;
+  border-width: 5px;
+  border-style:double;
+  border color: #2ECC40
+border-radius: 5px;
+padding: 10px;
+}
+
+#goals {
+    border-color: #BE2F29 ;
+}
+
+#interests-header {
+    border-color: #BE2F29 ;
+}
+ul{
+  color:#1A2C42;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  color:##1A2C42;
+  border-width: 5px;
+  border-style: double;
+  border color: #1A2C42
+
+border-radius: 5px;
+padding:10px;}
+
+#I {
+  border:solid rgb(24,44,66) 4px;
+}
+
+#Interests {
+  border:solid rgb(24,44,66) 4px;
+}
