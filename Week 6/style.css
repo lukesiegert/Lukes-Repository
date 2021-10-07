@@ -1,0 +1,48 @@
+h1{
+  font-size: 75px;
+font-family: 'Teko', sans-serif;
+text-align: center;
+text-decoration: underline;
+color: Black;
+}
+
+
+#opening img{
+  position:relative;
+  height: 50vh;
+}
+
+body{
+  margin: 25px;
+}
+
+#sectionone  {
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+
+}
+
+#sectiontwo {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 1vw;
+}
+
+
+button{
+  background-color: #B0AFA9;
+  font-family: 'Teko', sans-serif;
+  border-radius: 15px;
+  font-size: 45px;
+  padding: 15px 25px 25px 25px;
+}
+
+button:active{
+  color: #09D9A7;
+}
+
+button:hover{
+border: solid black 2px;
+  background-color: #22f890
+}

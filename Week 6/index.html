@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Week 6 </title>
+
+  <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Teko&display=swap" >
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <section id="opening">
+    <h1 id="openingtext"> Choose Your Time Period</h1>
+    <img id ="current" src="current.jpg" alt="current era town">
+  </section>
+
+
+  <section id="sectionone">
+<button id="buttonone">Travel to the Future </button>
+</section>
+<section id="sectiontwo">
+<button id ="buttontwo"> Travel to the Past </button>
+</section>
+
+
+<script>
+ document.getElementById("buttonone").addEventListener("click", futureClicked);
+ document.getElementById("buttontwo").addEventListener("click", pastClicked);
+  function futureClicked(){
+document.getElementById("current").src="futuristiccity.jpg";
+}  function pastClicked(){
+document.getElementById("current").src="pastlandscape.jpg";
+}
+
+
+</script>
+</body>
