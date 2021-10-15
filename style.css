@@ -1,37 +1,33 @@
-body{
-  background-color: #001f3f;
-}
-h1 {
-color: #2ECC40;
-  text-align: center;
-text-decoration: underline;
-font-size: 50px
-
+#quotesection{
+  background-color: #BCF4DD;
+  margin: 25vh 15vw;
+  padding: 10vh 12vw 12vh 12vw;
+  border-radius: 40px;
+  height: 25vh;
 }
 
-p {
-  color: #2ECC40
+button{
+font-size: 30px;
+  padding: 3vh 3vw;
+background-color: #718AF6;
+  margin-top: 5vh;
+    border-radius: 8px;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  position:absolute;
+  bottom:300px;
+  right:600px;
 }
 
-h2{
-display: inline-block;
-  color:#2ECC40;
-  border-width: 5px;
-  border-style:double;
-  border color: #2ECC40
-
-border-radius: 10px;
-padding:10px;
+button:hover{
+  border: #fff solid 1px;
 }
-ul{
-  color:#2ECC40;
-}
-h3{
-  display: inline-block;
-  color:#2ECC40;
-  border-width: 5px;
-  border-style: double;
-  border color: #2ECC40
 
-border-radius: 5px;
-padding:10px;}
+button:active{
+  color: #999999;
+}
+
+h1{
+  color: #718AF6;
+font-family: 'Titillium Web', sans-serif;
+}
