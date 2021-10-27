@@ -1,0 +1,39 @@
+#tabs{
+  display: flex;
+  margin: 25vh 10vw 0 10vw;
+}
+
+#text{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 80px;
+  border: 1px solid #aaa;
+  border-top: none;
+}
+
+.Day{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid #aaa;
+  background-color:#f3b41b;
+}
+
+
+
+}
+h2{
+  margin-top: 28px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+  margin-left: 30px;
+}
+
+#Wednesdayitems, #Fridayiems{
+  display: none;
+}
+
+.active{
+  background-color: #f3b41b;
+  border-color: #133d59
+  border-bottom:none;
+}
