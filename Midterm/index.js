@@ -11,8 +11,6 @@ for(i=0; i<document.getElementsByClassName("Day").length; i++){
 // document.getElementsById("Monday").style.fontSize = "40px";
 
 
-  //document.getElementById("one").addEventListener('click', setActiveButton, false);
-//  document.getElementById("two").addEventListener('click', setActiveButton, false);
 
 }
 
@@ -23,13 +21,13 @@ function setActive(e){
 
 
   prevDay = document.getElementsByClassName("active")[0].id;
-  if(prevDay != undefined){
+  if(prevDay != undefined)
+
+  {
     document.getElementById(prevDay).classList.toggle("active");
     document.getElementById(prevDay +"items").style.display = "none";
 
   }
-  // console.log("previous meal: " + prevmeal);
-  // prevmeal.classList.toggle('active');
 
 
   if(e.target.tagName == "H2"){
