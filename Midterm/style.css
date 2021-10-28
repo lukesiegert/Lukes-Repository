@@ -1,12 +1,12 @@
-#tabs{
+/* #tabs{
   display: flex;
-  margin: 25vh 10vw 0 10vw;
-}
+  margin: 10vh 10vw 0 10vw;
+} */
 
 #text{
   display:flex;
   margin: 0vh 10vw 0 10vw;
-  padding-top: 80px;
+  padding-top: 15px;
   border: 1px solid #aaa;
   border-top: none;
 }
@@ -21,19 +21,34 @@
 
 
 }
-h2{
-  margin-top: 28px;
-  padding-bottom: 0;
-  font-size: 1.8em;
-  margin-left: 30px;
-}
+#tabs{
+display: flex;
+  margin: 5vh 10vw 5vh 10vw;
+color: #133d59;
+margin-top: 2px;
+  font-size: 6em;
 
-#Wednesdayitems, #Fridayiems{
+}
+ h3{
+   font-family: 'Titillium Web', sans-serif;
+   color: #133d59;
+   font-size: 30px;
+border-style: solid ;
+border-color: #133d59;
+border-radius: 15px;
+
+ }
+
+ h4{
+   font-family: 'Titillium Web', sans-serif;
+   color: #133d59;
+ }
+#Wednesdayitems, #Fridayitems{
   display: none;
 }
 
 .active{
-  background-color: #f3b41b;
+  background-color: #blue;
   border-color: #133d59
   border-bottom:none;
 }
